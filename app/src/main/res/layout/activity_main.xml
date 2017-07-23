@@ -9,27 +9,21 @@
         android:layout_height="0dp"
         android:layout_weight="1">
 
-        <com.koo.mycustomview.HistogramView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="#506E7A"/>
+        <include layout="@layout/histogram"/>
 
     </RelativeLayout>
 
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:background="#33000000"/>
+        android:background="#33000000" />
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1">
 
-        <com.koo.mycustomview.PieChartView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="#506E7A"/>
+        <include layout="@layout/piechart"/>
 
     </RelativeLayout>
 </LinearLayout>
